@@ -11,7 +11,8 @@ brew install boost
 C++17 or later: Ensure you're using a compiler that supports C++17 or later, as Boost.Beast uses features from newer C++ standards.
 
 
-Explanation of the Code
+# Explanation of the Code
+
 1- Web Framework Class:
 
 The WebFramework class listens for incoming HTTP requests and routes them based on the request's path.
@@ -57,4 +58,5 @@ g++ -std=c++17 -o web_framework web_framework.cpp -lboost_system -lboost_thread 
 # Testing the Server
 
 1- Open your browser and visit http://127.0.0.1:8080. You should see the "Welcome to My C++ Web Framework!" message.
+
 2- Visit http://127.0.0.1:8080/hello, and you'll see "Hello, World!".
