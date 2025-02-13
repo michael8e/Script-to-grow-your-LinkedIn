@@ -1,4 +1,4 @@
-# Requirements
+# Requirements:
 
 Boost Libraries: We need Boost libraries for networking and HTTP handling.
 
@@ -11,7 +11,7 @@ brew install boost
 C++17 or later: Ensure you're using a compiler that supports C++17 or later, as Boost.Beast uses features from newer C++ standards.
 
 
-# Explanation of the Code
+# Explanation of the Code:
 
 1- Web Framework Class:
 
@@ -32,7 +32,7 @@ boost::beast::http::async_read reads the incoming request, and boost::beast::htt
 
 We define two simple routes in this example: / (home) and /hello.
 
-# Compiling the Code
+# Compiling the Code:
 
 To compile and run the C++ web server, follow these steps:
 
