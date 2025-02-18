@@ -1,0 +1,62 @@
+* 
+body {
+    background-color: rgb(41, 41, 41);
+    color: rgb(172, 172, 172);
+}
+
+#main {
+    background-color: rgb(29, 29, 29);
+}
+
+#main img {
+    width: 250px;
+}
+
+.container {
+    max-width: 800px;
+}
+
+#data .item {
+    padding: 15px 0;
+}
+.social a {
+    color: rgb(172, 172, 172);
+    background-color:rgb(41, 41, 41);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 25px;
+    padding-top: 4px;
+    text-align: center;
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fade-in {
+    animation: fadeIn 2s ease-in forwards;
+  }
+  
+  @keyframes glow {
+    0% {
+        box-shadow: 0 0 50px #fafedb57;
+    }
+    50% {
+        box-shadow: 0 0 30px #fafedba5;
+    }
+    100% {
+        box-shadow: 0 0 50px #fafedb57;
+    }
+  }
+  
+  .glow {
+    box-shadow: 0 0 50px #fafedb57;
+    animation: glow 2s 5;
+  }
+  
